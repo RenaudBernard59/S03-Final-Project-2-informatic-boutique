@@ -98,7 +98,31 @@ h1 {
 # 						ASIDE - NAV						 #
 ##########################################################
 */
+#body {
+	display: inline-flex;
+	flex-direction: row
+}
 
+
+#secondary {
+	width: 200px;
+	border: solid black 1px;
+	margin: 5px;
+	padding: 5px;
+	font-size: 0.9em;
+
+}
+
+#secondary h2 {
+	margin: 5px;
+	padding: 5px;
+	font-size: 0.9em;
+}
+
+
+#secondary ul {
+	list-style-type: none;
+}
 
 
 /*
@@ -106,6 +130,37 @@ h1 {
 # 						MAIN							 #
 ##########################################################
 */
+#trillage h2, #articles h2 {
+	display: none;
+}
+
+#trillage{
+	width: 200px;
+} 
+
+#trillage ul {
+    list-style-type: none;
+    display: flex;
+	background-color: grey;
+end;
+	
+}
+
+#articles {
+    display: flex;
+    flex-wrap: wrap;
+	
+
+}
+
+.articles {
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+    border: solid black 1px;
+    background-color: orange;
+
+}
 
 
 
