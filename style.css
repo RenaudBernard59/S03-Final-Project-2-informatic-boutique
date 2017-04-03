@@ -154,6 +154,25 @@ aside {
 	display: inline-block;
 }
 
+.articles h3 {
+	margin: 0;
+	color: green;
+	text-align: left;
+	font-size: 0.9em;
+
+}
+
+.articles p {
+	text-align: right;
+	color: pink;
+	font-weight: bold;
+	font-size: 1.3em;
+	margin: 0;
+}
+
+ img {
+ 	width: 170px;
+ }
 
 
 /*
@@ -174,7 +193,7 @@ footer, footer a {
 small div {
 		display: inline-block;
 		vertical-align: top;
-		//text-align: center;
+
 }
 
 small div ul {
