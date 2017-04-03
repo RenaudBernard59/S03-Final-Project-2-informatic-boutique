@@ -208,13 +208,13 @@ footer, footer a {
 
 }
 
-small div {
+footer div {
 		display: inline-block;
 		vertical-align: top;
 
 }
 
-small div ul {
+footer div ul {
 	list-style-type: none;
 }
 
