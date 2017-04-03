@@ -9,7 +9,7 @@ body {
 }
 
 main  {
-
+	width: 900px;
 	margin: auto;
 	background-color: #F2F4A1;
 	border: solid #DCDCC2 2px;
@@ -34,6 +34,7 @@ header {
 }
 
 #sitehead {
+	display: inline-block;
 }
 
 #logo {
@@ -45,6 +46,7 @@ header {
 
 h1 {
 	color: #0092FF;
+	font-size: 2em;
 
 }
 
@@ -58,16 +60,19 @@ h1 {
 
 }
 
-#primary ul li {
-
+#primary li {
+	display: inline-block;
+	margin-right: 15px;
+	padding: 5px;
 }
 
 #primary a {
 	color: white;
+	font-size: 1.3em;
 }
 
 #primary a:hover {
-	background-color: #CA8160;
+	background-color: maroon;
 }
 
 
@@ -78,37 +83,51 @@ h1 {
 ##########################################################
 */
 
+aside, #main-content {
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+
 aside {
-
-
-}
-
-
-#secondary {
 	border: solid black 1px;
-
+	width: 200px;
+	background-color: lightblue;
 }
 
-#secondary h2, #secondary ul {
+#secondary ul {
+	margin-left:5px;
+	padding-left:5px;
+}
+
+#secondary ul li  {
 	list-style-type: none;
 
 }
 
-
-
+#secondary ul li h2, #secondary ul li a {
+	color: black;
+	font-size: 0.9em;
+	margin: 5px;
 }
-
 
 /*
 ##########################################################
 # 						MAIN							 #
 ##########################################################
 */
-#trillage h2, #articles h2 {
+#main-content {
+	width: 690px;
+}
 
+
+#trillage h2, #articles h2 {
+	display: none;
 }
 
 #trillage{
+	width: 500px;
 
 } 
 
@@ -121,15 +140,18 @@ aside {
 }
 
 #articles {
-
+	
 
 }
 
 .articles {
-
+	width: 200px;
+	height: 200px;
     border: solid black 1px;
     background-color: orange;
-
+	margin: 2px;
+	padding: 10px;
+	display: inline-block;
 }
 
 
@@ -140,13 +162,24 @@ aside {
 ##########################################################
 */
 
-footer {
+footer, footer a {
+	background-color: maroon;
+	color: white;
+	text-decoration: none;
+	font-style: 0.3em;
 
 
 }
 
+small div {
+		display: inline-block;
+		vertical-align: top;
+		//text-align: center;
+}
 
-
+small div ul {
+	list-style-type: none;
+}
 
 
 
